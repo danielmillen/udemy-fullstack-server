@@ -1,7 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Follow-along with the Udemy fullstack developer course (https://www.udemy.com/node-with-react-fullstack-web-development/learn/v4/overview)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ficertyn/udemy-fullstack-server"
+  },
   "main": "index.js",
   "engines": {
     "node": "10.1.0",
@@ -14,7 +18,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
     "express": "^4.16.3",
+    "mongoose": "^5.1.1",
     "nodemon": "^1.17.4",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
