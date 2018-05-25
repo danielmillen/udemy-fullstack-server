@@ -1,13 +1,13 @@
-node_modules
-config/dev.js
-
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# dependencies
+/node_modules
+
 # testing
-client/coverage
+/coverage
 
 # production
-client/build
+/build
 
 # misc
 .DS_Store
