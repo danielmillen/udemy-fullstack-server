@@ -1,8 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description":
-    "Follow-along with the Udemy fullstack developer course (https://www.udemy.com/node-with-react-fullstack-web-development/learn/v4/overview)",
+  "description": "Follow-along with the Udemy fullstack developer course (https://www.udemy.com/node-with-react-fullstack-web-development/learn/v4/overview)",
   "repository": {
     "type": "git",
     "url": "https://github.com/ficertyn/udemy-fullstack-server"
@@ -17,8 +16,7 @@
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently  \"npm run server\" \"npm run client\"",
-    "heroku-postbuild":
-      "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "",
   "license": "ISC",
@@ -31,6 +29,7 @@
     "nodemon": "^1.17.5",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
+    "sendgrid": "^5.2.3",
     "stripe": "^6.0.0"
   },
   "devDependencies": {
