@@ -1,8 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description":
-    "Follow-along with the Udemy fullstack developer course (https://www.udemy.com/node-with-react-fullstack-web-development/learn/v4/overview)",
+  "description": "Follow-along with the Udemy fullstack developer course (https://www.udemy.com/node-with-react-fullstack-web-development/learn/v4/overview)",
   "repository": {
     "type": "git",
     "url": "https://github.com/ficertyn/udemy-fullstack-server"
@@ -16,10 +15,8 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
-    "dev":
-      "concurrently \"npm run server\" \"npm run client\" \"npm run webhook\"",
-    "heroku-postbuild":
-      "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run webhook\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
     "webhook": "./sendgrid_webhook.sh"
   },
   "author": "",
@@ -36,7 +33,7 @@
     "passport-google-oauth20": "^1.0.0",
     "path-parser": "^4.1.0",
     "sendgrid": "^5.2.3",
-    "stripe": "^6.0.0"
+    "stripe": "^6.1.0"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
