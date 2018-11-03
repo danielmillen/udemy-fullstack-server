@@ -37,6 +37,6 @@
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
-    "localtunnel": "^1.9.0"
+    "localtunnel": "^1.9.1"
   }
 }
